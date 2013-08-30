@@ -3,7 +3,7 @@ body	{ margin: 0; padding: 0; width: 100%; height: 100%; background: url('../ima
 h1  {  }
 h2  {  }
 
-
+img { border: none; }
 ul, ol  { margin: 0; }
 
 #wrapper	{ width: 1024px; height: 100%; margin: 0 auto; background: #ffffff; }
@@ -24,7 +24,7 @@ ul, ol  { margin: 0; }
 #wrapper #menu ul	{ list-style-type: none; padding: 0; width: 100%; text-align: center;  background: url('../images/bg-menu.jpg') repeat-x left top;border: 1px solid #5087ba;  }
 #wrapper #menu li	{ width: 197px; height: 53px; display: inline-block; background: url('../images/menu-divider.gif') no-repeat right top; }
 #wrapper #menu li:last-child	{ background: none; }
-#wrapper #menu a	{ color: #ffffff; text-decoration: none; display: block; padding: 5px 0 0 0; font-size: 30px; font-style: italic; }
+#wrapper #menu a	{ color: #ffffff; text-decoration: none; display: block; padding: 5px 0 0 0; font-size: 28px; font-style: italic; }
 
 
 #wrapper #gallery    { overflow: hidden; position: relative; padding: 40px 30px 30px 30px; height: 335px; }
@@ -49,4 +49,7 @@ ul, ol  { margin: 0; }
 #wrapper .catalogue .content-catalogue a:hover    { text-decoration: none; }
 
 
-#wrapper #footer    { background: url("../images/footer-bg.jpg") repeat left top; width: 100%; height: 100px; }
+#wrapper #footer    { background: url("../images/footer-bg.jpg") repeat left top; width: 98%; text-align: right; padding: 15px 20px 10px 0px; }
+#wrapper #footer a   { text-decoration: none; }
+#wrapper #footer .socsety   { background: url("../images/divider.png") no-repeat right 45px; height: 60px }
+#wrapper #footer .copyright    { font: 12px 'Arial'; color: #b8dff0; }
