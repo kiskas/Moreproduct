@@ -49,7 +49,7 @@ ul, ol  { margin: 0; }
 #wrapper .catalogue .content-catalogue a:hover    { text-decoration: none; }
 
 
-#wrapper #footer    { background: url("../images/footer-bg.jpg") repeat left top; width: 98%; text-align: right; padding: 15px 20px 10px 0px; }
+#wrapper #footer    { background: url("../images/footer-bg.jpg") repeat left top; width: 98%; text-align: right; padding: 15px 20px 10px 0px; border: 1px solid #5087ba; }
 #wrapper #footer a   { text-decoration: none; }
 #wrapper #footer .socsety   { background: url("../images/divider.png") no-repeat right 45px; height: 60px }
 #wrapper #footer .copyright    { font: 12px 'Arial'; color: #b8dff0; }
