@@ -36,6 +36,12 @@ ul, ol  {
     margin: 0;
 }
 
+input,
+textarea    {
+    padding: 5px;
+    border: 1px solid #e0e0e0;
+}
+
 #wrapper	{
     width: 1024px;
     min-height: 100%;
@@ -399,13 +405,114 @@ div.vote-success    {
 -------------------------------------- */
 
 #question   {
-    width: 100%;
+    width: 77%;
     height: auto;
     clear: both;
+}
 
+#question .comment-question {
+    border: 1px solid #e0e0e0;
+    overflow: hidden;
+    padding: 15px;
+}
+
+#question .comment-question .user   {
+    width: 80px;
+    float: left;
+    padding-right: 20px;
+}
+
+#question .comment-question .user-name   {
+    color: #5da127;
+    padding-top: 10px;
+}
+
+#question .comment-question .user-ico   {
+    width: 80px;
+    height: 80px;
+}
+
+#question .comment-question .user-date,
+#question .comment-question .default-text   {
+    color: #b1b1b1;
+    font-style: italic;
+}
+
+#question .comment-question p.default-text   {
+    margin-top: 0;
+}
+
+#question .comment-question .user-date   {
+    text-align: right;
+}
+
+#question .comment-question .user-comment   {
+    float: left;
+    width: 85%;
 }
 
 
+
+#question .form-question   {
+    clear: both;
+}
+
+form .question-input    {
+    padding-bottom: 7px;
+}
+
+form .question-input input   {
+    width: 371px;
+}
+
+form .question-input input:hover,
+form .question-textarea textarea:hover   {
+    border: 1px solid #aaaaaa;
+}
+
+form .question-textarea textarea    {
+    width: 556px;
+}
+
+/* for ie
+form .button-left-b    {
+    background: url('../images/button-left.png') no-repeat left top;
+    padding-left: 4px;
+}
+
+form .button-right-b    {
+    background: url('../images/button-right.png') no-repeat right top;
+    padding-right: 4px;
+}
+
+.buttom {
+    width: 91px;
+}
+
+form #button,
+form #answer    {
+    font: normal 15px Arial;
+    background: url('../images/button-middle.png') repeat center top;
+    border: none;
+    color: #ffffff;
+    margin: 0;
+    cursor: pointer;
+}*/
+
+form #button,
+form #answer    {
+    font: normal 15px Arial;
+    background: url('../images/button-middle.png') repeat center top;
+    border: 1px solid #5087ba;
+    color: #ffffff;
+    margin: 0;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.user-comment .buttom {
+    text-align: right;
+}
 
 
 

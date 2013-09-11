@@ -13,7 +13,6 @@
     <script type="text/javascript" src="scripts/lib/jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="scripts/user/main.js"></script>
     <script type="text/javascript" src="scripts/lib/jquery.rating-2.0.js"></script>
-    <script type="text/javascript" src="scripts/lib/jquery.placeholder.js"></script>
 
 </head>
 <body>
@@ -88,31 +87,43 @@
                 <div class="user">
                     <img class="user-ico" src="./images/user-ico.jpg" alt=""/>
                     <div class="user-name">
-                        <span></span>
+                        <span>Name</span>
                     </div>
                 </div>
                 <div class="user-comment">
-                    <p class="default-text"></p>
-                    <p></p>
-                    <div class="user-date"></div>
+                    <form action="/">
+                        <p class="default-text">Ваш комментарий</p>
+                        <p>Test test test test testTest test test test testTest test test test testTest test test test testTest test test test testTest test test test test</p>
+                        <p>Test test test test testTest test test test testTest test test test testTest test test test testTest test test test testTest test test test test</p>
+                        <div class="user-date">Август 23, 2013</div>
+                        <div class="buttom">
+                            <input type="button" value="Ответить" id="answer">
+                        </div>
+                        <!-- for ie
+                        <div class="buttom">
+                            <div class="button-left-b">
+                                <div class="button-right-b">
+                                    <input type="button" value="Отправить" id="answer">
+                                </div>
+                            </div>
+                        </div>-->
+                    </form>
                 </div>
             </div>
             <div class="form-question">
                 <h2>Оставить комментарий</h2>
                 <form action="/">
                     <div class="question-input">
-                        <input type="text" value="" placeholder="Имя"/>
+                        <input type="text" value="" placeholder="Имя*"/>
                     </div>
                     <div class="question-input">
-                        <input type="text" value="" placeholder="E-mail" />
+                        <input type="text" value="" placeholder="E-mail (не для публикации)" />
                     </div>
                     <div class="question-textarea">
-                        <textarea rows="10" cols="50" placeholder="Ваш комментарий"></textarea>
+                        <textarea rows="10" cols="50" placeholder="Ваш комментарий*"></textarea>
                      </div>
-                    <div class="button-left-b">
-                        <div class="button-right-b">
-                            <input type="button" value="Отправить" id="button">
-                        </div>
+                    <div class="buttom">
+                        <input type="button" value="Отправить" id="button">
                     </div>
                 </form>
             </div>
