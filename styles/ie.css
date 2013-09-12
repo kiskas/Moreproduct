@@ -1,0 +1,15 @@
+#wrapper #menu li,
+#wrapper #header .logo,
+#wrapper #header .name-site,
+#wrapper .contacts,
+#wrapper .catalogue .content-catalogue,
+.content .prev-product,
+.content .next-product,
+.content .gallery-product-ico   {
+    display: inline;
+}
+
+.line-bant .line-img {
+    position: relative;
+    top: 12px;
+}
