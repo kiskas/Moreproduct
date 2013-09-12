@@ -139,14 +139,16 @@ textarea    {
 }
 
 #wrapper #menu li	{
-    width: 197px;
+    width: 200px;
     height: 53px;
-    background: url('../images/menu-divider.gif') no-repeat right top;
+    /*background: url('../images/menu-divider.gif') no-repeat right top;*/
+    border-right: 1px solid #5087ba;
     display: inline-block;
 }
 
 #wrapper #menu li:last-child	{
     background: none;
+    border: none;
 }
 
 #wrapper #menu a	{
@@ -236,7 +238,7 @@ textarea    {
     height: 70px;
     clear: both;
 
-    padding: 0 0 20px 0;
+    padding: 10px 0 20px 0;
 }
 
 .content .gallery-product-ico   {
@@ -499,15 +501,25 @@ form #answer    {
     cursor: pointer;
 }*/
 
+form #button:hover,
+form #answer:hover    {
+    background: #5087ba;
+}
+
 form #button,
 form #answer    {
     font: normal 15px Arial;
     background: url('../images/button-middle.png') repeat center top;
     border: 1px solid #5087ba;
     color: #ffffff;
-    margin: 0;
+    margin: 15px 0 0 0;
     cursor: pointer;
-    margin-top: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .user-comment .buttom {
