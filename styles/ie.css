@@ -13,3 +13,19 @@
     position: relative;
     top: 12px;
 }
+
+form #button,
+form #answer    {
+    font: normal 15px Arial;
+    background: url('../images/button-middle.png') repeat center top;
+    border: none;
+    color: #ffffff;
+    margin: 0;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+input,
+textarea  {
+    color: #b1b1b1;
+}
