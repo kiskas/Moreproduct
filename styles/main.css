@@ -11,21 +11,25 @@ body	{
 h1  {
     font: italic 27px/25px Times New Roman;
     color: #4374a9;
+    padding-bottom: 20px
 }
 
 h2  {
     font: italic 27px Times New Roman;
     color: #4374a9;
+    padding: 10px 0 10px 0;
 }
 
 h3  {
     font: italic 20px Times New Roman;
     color: #4374a9;
+    padding: 10px 0 10px 0;
 }
 
 p  {
     font: 15px Times New Roman;
     color: #5f6b7c;
+    padding: 0 0 10px 0;
 }
 
 img {
@@ -242,7 +246,7 @@ textarea    {
 }
 
 .content .gallery-product-ico   {
-    display: inline-table;
+    display: inline-block;
 
     padding: 0 5px 0 5px;
 }
@@ -264,7 +268,7 @@ textarea    {
     top: -25px;
     z-index: 9999;
     cursor: pointer;
-    display: inline-table;
+    display: inline-block;
 }
 
 .content .next-product    {
@@ -413,9 +417,11 @@ div.vote-success    {
 }
 
 #question .comment-question {
+    height: 100%;
     border: 1px solid #e0e0e0;
     overflow: hidden;
     padding: 15px;
+    margin: 0 0 15px 0;
 }
 
 #question .comment-question .user   {
