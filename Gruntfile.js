@@ -2,6 +2,13 @@
  * Grunt compile project
  * @author polax
  * @date: 14.09.13
+ *
+ * For lunch task need run cmd in folder of the project
+ * Install Node js
+ * npm install -g grunt-cli
+ * npm install grunt-contrib-uglify --save-dev
+ * npm install grunt-contrib-concat --save-dev
+ * npm install grunt-contrib-cssmin --save-dev
  */
 module.exports = function(grunt) {
     grunt.initConfig({
