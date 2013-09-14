@@ -215,4 +215,4 @@ pip-log.txt
 .mr.developer.cfg
 
 build/
-./idea
+.idea/
