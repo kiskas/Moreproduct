@@ -6,7 +6,7 @@
     </list>
     <ignored path="Moreproduct.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="31c03943-044d-4ab7-bf60-0e7acafd6f8c" time="1379190153189" ignored="false" />
+    <file path="/Dummy.txt" changelist="31c03943-044d-4ab7-bf60-0e7acafd6f8c" time="1379190397498" ignored="false" />
     <file path="/.gitignore" changelist="31c03943-044d-4ab7-bf60-0e7acafd6f8c" time="1379190103315" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -221,7 +221,11 @@
       <created>1379190177131</created>
       <updated>1379190177131</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test">
+      <created>1379190401490</created>
+      <updated>1379190401490</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
