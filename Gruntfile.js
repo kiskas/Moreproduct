@@ -11,7 +11,7 @@ module.exports = function(grunt) {
             },
             dist: {
                 src: ['scripts/lib/*.js', 'scripts/user/*.js'],
-                dest: 'build/lib.js'
+                dest: 'build/common.js'
             }
         },
         uglify: {
@@ -19,13 +19,23 @@ module.exports = function(grunt) {
             },
             dist: {
                 files: {
-                    'build/build.min.js': ['<%= concat.dist.dest %>']
+                    'build/release.min.js': ['<%= concat.dist.dest %>']
                 }
+            }
+        },
+        cssmin: {
+            minify: {
+                expand: true,
+                cwd: 'styles',
+                src: ['*.css', '!*.min.css'],
+                dest: 'build/',
+                ext: '.min.css'
             }
         }
     });
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
 
-    grunt.registerTask('default', ['concat', 'uglify']);
+    grunt.registerTask('default', ['concat', 'uglify', 'cssmin']);
 };
