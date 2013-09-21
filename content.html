@@ -8,18 +8,17 @@
     <meta name="description" content="" />
 
     <link rel="shortcut icon" href="" />
-    <link rel="stylesheet" href="build/reset.min.css" type="text/css" />
-    <link rel="stylesheet" href="build/main.min.css" type="text/css" />
+    <link rel="stylesheet" href="styles/reset.css" type="text/css" />
+    <link rel="stylesheet" href="styles/main.css" type="text/css" />
 
     <!--[if IE]>
-    <link href="build/ie.min.css" type="text/css" rel="stylesheet">
+        <link href="styles/ie.css" type="text/css" rel="stylesheet">
     <![endif]-->
 
-    <!--<script type="text/javascript" src="scripts/lib/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="scripts/lib/jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="scripts/user/main.js"></script>
     <script type="text/javascript" src="scripts/lib/jquery.rating-2.0.js"></script>
-    <script type="text/javascript" src="scripts/lib/jquery.placeholder.js"></script>-->
-    <script type="text/javascript" src="build/release.min.js"></script>
+    <script type="text/javascript" src="scripts/lib/jquery.placeholder.js"></script>
 
 </head>
 <body>
@@ -36,19 +35,27 @@
                 <span>+7(812) 000-00-00</span>
             </div>
         </div>
-    </div><!-- header eng -->
+        <div class="search">
+            <form action="/">
+                <input type='text' value='' placeholder="Поиск...">
+                <input type='submit' value='' class="submit"/>
+            </form>
+        </div>
+    </div><!-- header end -->
     <div id="menu">
         <ul>
             <li><a href="">Главная</a></li>
             <li><a href="">О магазине</a></li>
             <li><a href="">Товары</a></li>
-            <li><a href="">Новости</a></li>
+            <li><a href="">Доставка</a></li>
             <li><a href="">Контакты</a></li>
         </ul>
-    </div><!-- menu eng -->
+    </div><!-- menu end -->
     <div class="main">
         <div class="path">
-
+            <span><a href="/">Главная</a></span> >>
+            <span><a href="/catalogue.html">Рыба</a></span> >>
+            <span>Заголовок заголовок заголовок рыбка наша</span>
         </div>
         <div class="content">
             <div class="icon-product">
@@ -64,7 +71,7 @@
                     </div>
                 </div>
                 <div class="gallery-product">
-                    <div class="prev-product"></div>
+                    <a href="#" class="prev-product"></a>
                     <div class="gallery-product-ico">
                         <img src="./images/gallery-product-ico.jpg" alt=""/>
                         <img src="./images/gallery-product-ico.jpg" alt=""/>
@@ -72,7 +79,7 @@
                         <img src="./images/gallery-product-ico.jpg" alt=""/>
                         <img src="./images/gallery-product-ico.jpg" alt=""/>
                     </div>
-                    <div class="next-product"></div>
+                    <a href="#" class="next-product"></a>
                 </div>
             </div>
             <div class="text-product">
@@ -89,6 +96,7 @@
             </div>
         </div> <!-- end content -->
 
+        <a name="reviews"></a>
         <div id="question">
             <div class="comment-question">
                 <div class="user">
@@ -118,6 +126,7 @@
                 </div>
             </div>
             <div class="form-question">
+                <a name="comment"></a>
                 <h2>Оставить комментарий</h2>
                 <form action="/">
                     <div class="question-input">
